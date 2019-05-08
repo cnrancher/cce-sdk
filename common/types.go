@@ -230,6 +230,8 @@ type ExtendParam struct {
 	BMSPeriodType  string `json:"periodType,omitempty"`
 	BMSPeriodNum   int64  `json:"periodNum,omitempty"`
 	BMSIsAutoRenew string `json:"isAutoRenew,omitempty"`
+	PreInstall     string `json:"alpha.cce/preInstall,omitempty"`
+	PostInstall    string `json:"alpha.cce/postInstall,omitempty"`
 }
 
 type NodeSpecInfo struct {
