@@ -187,7 +187,7 @@ type UpdateCluster struct {
 
 //node struct
 type NodeMetaInfo struct {
-	Name              string            `json:"name"`
+	Name              string            `json:"name,omitempty"`
 	Uid               string            `json:"uid"`
 	CreationTimestamp string            `json:"creationTimestamp,omitempty"`
 	UpdateTimestamp   string            `json:"updateTimestamp,omitempty"`
